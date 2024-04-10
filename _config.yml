@@ -12,7 +12,7 @@ title                    : "Linchen Zhang"
 title_separator          : "-"
 name                     : &name "Linchen Zhang"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://linchenzhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "linchenzhang.github.io"
 
@@ -23,12 +23,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Linchen Zhang"
-  pronouns         : "he/him"  
+  pronouns         : #"he/him"  
   bio              : "Economics Phd student at UCSD"
   location         : "San Diego, CA"
   employer         : "UCSD"
   uri              : 
-  email            : "liz032 at ucsd dot edu" 
+  email            : "liz032@ucsd.edu" 
 
   # Academic websites
   arxiv            : 
