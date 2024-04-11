@@ -18,7 +18,7 @@ Happy browsing!
 Working Papers
 ======
 * [Participation-Adaptive Pricing](/files/bdz_pricing.pdf)
-  * with [Benjamin Brooks](benjaminbrooks.net) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)
+  * with [Benjamin Brooks](https://www.benjaminbrooks.net/) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)
   * Abstract: A large number of buyers with single unit demand have a common value for the good
 being sold. We describe a new class of mechanisms, which we refer to as participationadaptive pricing: Each prospective buyer indicates whether or not they want to buy a
 good, available goods are rationed among those who wish to purchase, and the market
