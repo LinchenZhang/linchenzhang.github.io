@@ -9,15 +9,17 @@ redirect_from:
 
 Thanks for visiting my website! 
 
-I am an Economics Ph.D. student at University of California San Diego (Cohort 2021). My research interests are microeconomics theory and behavioral economics, with a focus on robust mechanism design. 
+I am an Economics Ph.D. student at University of California San Diego (Cohort 2021). 
+
+My research interests are microeconomics theory and behavioral economics, with a focus on robust mechanism design. 
 
 You can find my detailed CV here.
 
 
 Working Papers
 ======
-* Participation-Adaptive Pricing
-  * with Songzi Du and Benjamin Brooks
+* [Participation-Adaptive Pricing](https://econweb.ucsd.edu/~sodu/bdz_pricing.pdf)
+  * with [Benjamin Brooks](benjaminbrooks.net) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)
   * Abstract: A large number of buyers with single unit demand have a common value for the good
 being sold. We describe a new class of mechanisms, which we refer to as participationadaptive pricing: Each prospective buyer indicates whether or not they want to buy a
 good, available goods are rationed among those who wish to purchase, and the market
