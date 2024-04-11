@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Linchen Zhang"
+title                    : "Linchen's Home"
 title_separator          : "-"
 name                     : &name "Linchen Zhang"
 description              : &description "personal description"
@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Linchen Zhang"
   pronouns         : #"he/him"  
-  bio              : "Economics Phd student at UCSD"
-  location         : "San Diego, CA"
-  employer         : "UCSD"
+  bio              : "Economics PhD student at UCSD"
+  location         : "San Diego, CA, USA"
+  employer         : "University of California, San Diego"
   uri              : 
   email            : "liz032@ucsd.edu" 
 
