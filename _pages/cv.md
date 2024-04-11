@@ -12,8 +12,9 @@ redirect_from:
 Education
 ======
 * Ph.D in Economics, University of California San Diego, 2026 (expected)
-* B.A. in CS, Econ, and Math, Cornell University, 2021
-
+* B.A. in Computer Science, Economics, and Mathematics, Cornell University, 2021
+* Secondary school diploma, High School Affiliated to Renmin University of China, 2017
+  
 Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
