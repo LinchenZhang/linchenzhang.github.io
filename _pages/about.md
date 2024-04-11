@@ -31,7 +31,7 @@ information and equilibrium strategies.
 Work in Progress
 ======
 * First Price Auction Revenue Guarantee
-  * Abstract: I analyze the First Price Auction revenue guarantee across all Bayes coarse correlated equilibria, under which the principal intends to sell a single unit and common value item to agents. I first show that it is sufficient to only examine identical-play equilibria, and based on it, I give characteristic functions for the revenue guarantee assuming a continuous value distribution. The asymptotic revenue guarantee of a continuous distribution is equal to the revenue guarantee under Bayes correlated equilibria in the literature. I then extend the model and characterize the revenue guarantee for a binary value distribution, which gives the minimum revenue guarantee level among all value distributions.
+  
 
 
 
