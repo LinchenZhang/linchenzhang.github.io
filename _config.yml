@@ -21,7 +21,7 @@ repository               : "linchenzhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "linchen_pic.png"
   name             : "Linchen Zhang"
   pronouns         : #"he/him"  
   bio              : "Economics PhD student at UCSD"
