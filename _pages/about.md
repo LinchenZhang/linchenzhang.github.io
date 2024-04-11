@@ -7,14 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Thanks for visiting my website! 
-
 I am an Economics Ph.D. student at University of California San Diego (Cohort 2021). 
 
 My research interests are microeconomics theory and behavioral economics, with a focus on robust mechanism design. 
 
 You can find my detailed CV [here](/files/Linchen_Zhang_CV_2024.pdf).
 
+Happy browsing!
 
 Working Papers
 ======
