@@ -27,7 +27,7 @@ characterize a class of pricing rules for which, as the number of buyers grows l
 the expected market price converges to the expected value, regardless of the buyers’
 information and equilibrium strategies.
   * Presented at: Triangle micro conference 2024^, Texas A&M^
-  ^: presented by a co-author
+  * ^: presented by a co-author
 
   
 Work in Progress
