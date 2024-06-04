@@ -26,12 +26,15 @@ price is an increasing function of the number of buyers who wish to purchase. We
 characterize a class of pricing rules for which, as the number of buyers grows large,
 the expected market price converges to the expected value, regardless of the buyers’
 information and equilibrium strategies.
+  * Presented at: Triangle micro conference 2024^, Texas A&M^
+  ^: presented by a co-author
 
   
 Work in Progress
 ======
 * Revenue Guarantee across Bayes Coarse Correlated Equilibria (draft coming soon)
   * Abstract: I study the revenue guarantee across all Bayes coarse correlated equilibria, starting with the analysis in a first-price auction and common value setting. I first show that it suffices to only examine identical-play equilibria, and based on it, I give characteristic functions for the revenue guarantee assuming a continuous value distribution. The asymptotic revenue guarantee of a continuous distribution is equal to that under Bayes correlated equilibria in the literature. Moreover, I characterize the revenue guarantee for a binary value distribution, which gives the minimum revenue guarantee level among all value distributions. Finally, I show that all the results will still apply under a standard auction and symmetric prior environment.
+  * Presented at: UCSD TBE workshop, GAIMSS'24 (scheduled)
   
 
 
