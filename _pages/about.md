@@ -28,29 +28,7 @@ the expected market price converges to the expected value, regardless of the buy
 information and equilibrium strategies.
   * Presented at: Triangle micro conference 2024^, Texas A&M^
   * ^: presented by a co-author
-<!-- Button to trigger modal -->
-<a href="#" data-toggle="modal" data-target="#abstractModal">Read Abstract</a>
 
-<!-- Modal HTML -->
-<div class="modal fade" id="abstractModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="modalLabel">Paper Title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>This is the abstract of your paper. You can describe the key points here...</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-  
 Work in Progress
 ======
 * [Revenue Guarantee across Bayes Coarse Correlated Equilibria (preliminary draft)](/files/RG_BCCE_Linchen_Zhang.pdf)
