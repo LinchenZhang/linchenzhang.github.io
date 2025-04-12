@@ -28,8 +28,12 @@ Work in Progress
 ======
 * [Revenue Guarantee across Bayes Coarse Correlated Equilibria (preliminary draft)](/files/RG_BCCE_Linchen_Zhang.pdf) (Jul 2024)
   * Abstract: A single unit item owner sells the good to buyers through an auction design. We study the revenue guarantee (the lowest expected revenue amount that the seller can get) across all Bayes coarse correlated equilibria (BCCE, a weaker and inclusive equilibrium concept than Bayes correlated equilibrium, or BCE), starting with analysis in a first-price auction and a common value setting. We first show that it suffices to only examine identical-play equilibria, where all buyers follow exactly the same actions. Based on this simplification, we give characteristic functions for the revenue guarantee assuming a continuous value distribution. Revenue guarantee under BCCE converges to that under BCE when the market goes large. We also extend the model to allow for discrete distributions, other standard auctions, and symmetric prior environments.
-  * Presented at: UCSD TBE workshop, GAIMSS'24 (Flash talk and poster), ACM EC24 (poster), 35th Stony Brook Game Theory Conference
+  * Presented at: UCSD TBE workshop, GAIMSS'24 (Flash talk and poster), ACM EC24 (poster), 35th Stony Brook Game Theory Conference, Caltech Student Theory Conference
   
+* Iterated Dominance and Rationalizability
+  * with [Joel Watson](https://econweb.ucsd.edu/~jwatson/)
 
+* Procurement Auction (Experimental Design)
+  * with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home) 
 
 
