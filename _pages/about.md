@@ -33,7 +33,7 @@ Work in Progress
 * Iterated Dominance and Rationalizability
   * with [Joel Watson](https://econweb.ucsd.edu/~jwatson/)
 
-* Reasoning about Strategic Environment (Experimental Design)
+* Strategic Obliviousness (Currrent stage: Experimental Design)
   * with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home) 
 
 
