@@ -17,9 +17,20 @@ Happy browsing!
 
 Working Papers
 ======
-* [An Informationally-Robust Market Model of Perfect Competition](/files/bdz_market.pdf) (Jan 2025)
+* [An Informationally-Robust Market Model of Perfect Competition](/files/bdz_market.pdf) (Jul 2025)
   * with [Benjamin Brooks](https://www.benjaminbrooks.net/) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)
-  * Abstract: A large number of buyers with single unit demand have a common value for a good being sold. Buyers decide whether or not they wish to purchase the good, available goods are rationed among those who wish to purchase, and the market price is a function of the number of buyers who wish to purchase. We characterize pricing rules for which, as the number of buyers grows large, the expected market price converges to the expected value, regardless of the buyers’ information and equilibrium strategies; these are pricing rules that have vanishing price impact and are asymptotically inelastic. Interpreting the pricing rule as a market supply function, we also prove that as long as the pricing rule has vanishing price impact, then in the large market, welfare is at least that which obtains if the buyers have no information about the value. We extend our results to the case where there is also an idiosyncratic component to the value.
+  * Abstract: A large number of buyers with single unit demand have a common value for a good
+being sold. Buyers decide whether or not they wish to purchase the good; the goods
+are rationed among those who wish to purchase; and the market price is a function of
+the number of buyers who wish to purchase. We characterize pricing rules for which, as
+the number of buyers grows large, the expected market price converges to the expected
+value, regardless of the buyers’ information and equilibrium strategies: these are pricing
+rules that have vanishing price impact and are asymptotically inelastic. Interpreting
+the pricing rule as a market supply function, we also prove that as long as the pricing
+rule has vanishing price impact, then in the large market, welfare is at least at the level
+when the buyers have no information about the value. We extend our results to the
+case where there is also an idiosyncratic component to the value and where buyers have
+multi-unit demands.
 
   * Presented at: Triangle micro conference 2024^, UChicago^, Yale^, Cambridge^, UCL^, Stony Brook Game Theory Conference 2025
   * ^: presented by a co-author
@@ -33,7 +44,7 @@ Work in Progress
 * Iterated Dominance and Rationalizability with Continuation Reasoning
   * with [Joel Watson](https://econweb.ucsd.edu/~jwatson/)
 
-* Strategic Obliviousness (Currrent stage: Collecting Data)
+* Strategic Obliviousness (Current stage: Collecting Data)
   * with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home) 
 
 
