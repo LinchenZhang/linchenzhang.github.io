@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Linchen's Home"
+title                    : "Linchen Zhang"
 title_separator          : "-"
 name                     : &name "Linchen Zhang"
 description              : &description "personal description"
@@ -21,7 +21,7 @@ repository               : "linchenzhang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "linchen_pic_old.jpg"
+  avatar           : "linchen_pic.jpg"
   name             : "Linchen Zhang"
   pronouns         : #"he/him"  
   bio              : "Economics PhD student at UCSD"
