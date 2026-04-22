@@ -35,9 +35,17 @@ Working Papers
   A large number of buyers with single unit demand have a common value for a good being sold. Buyers decide whether or not they wish to purchase the good; the goods are rationed among those who wish to purchase; and the market price is a function of the number of buyers who wish to purchase. We characterize pricing rules for which, as the number of buyers grows large, the expected market price converges to the expected value, regardless of the buyers’ information and equilibrium strategies: these are pricing rules that have vanishing price impact and are asymptotically inelastic. 
   <br><br>
   Interpreting the pricing rule as a market supply function, we also prove that as long as the pricing rule has vanishing price impact, then in the large market, welfare is at least at the level when the buyers have no information about the value. We extend our results to the case where there is also an idiosyncratic component to the value and where buyers have multi-unit demands.
+<details>
+  <summary><strong>Presented at</strong></summary>
+  <br>
+  Presented at: Triangle micro conference 2024^, UChicago^, Yale^, Cambridge^, UCL^, Stony Brook Game Theory Conference 2025
+  <br>
+  <i>^: presented by a co-author</i>
+</details>
 
   * Presented at: Triangle micro conference 2024^, UChicago^, Yale^, Cambridge^, UCL^, Stony Brook Game Theory Conference 2025
   * ^: presented by a co-author
+
     
 Work in Progress
 ======
