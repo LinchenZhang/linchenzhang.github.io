@@ -30,7 +30,7 @@ Working Papers
 
 **[An Informationally-Robust Market Model of Perfect Competition](/files/bdz_market.pdf)** (Jul 2025)
   * with [Benjamin Brooks](https://www.benjaminbrooks.net/) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)
-<details>
+* <details>
   <summary><strong>Abstract</strong></summary>
   <br>
   A large number of buyers with single unit demand have a common value for a good being sold. Buyers decide whether or not they wish to purchase the good; the goods are rationed among those who wish to purchase; and the market price is a function of the number of buyers who wish to purchase. We characterize pricing rules for which, as the number of buyers grows large, the expected market price converges to the expected value, regardless of the buyers’ information and equilibrium strategies: these are pricing rules that have vanishing price impact and are asymptotically inelastic. 
