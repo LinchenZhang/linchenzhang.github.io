@@ -28,6 +28,7 @@ Working Papers
   UCSD TBE workshop, GAIMSS'24 (Flash talk and poster), ACM EC24 (poster), Stony Brook Game Theory Conference 2024, Caltech Student Theory Conference 2025, Southwest Economics Theory Conference 2026</details>
 
 **[An Informationally-Robust Market Model of Perfect Competition](/files/bdz_market.pdf)** (Jul 2025)
+
 <i>with [Benjamin Brooks](https://www.benjaminbrooks.net/) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)</i>
 * <details>
   <summary>Abstract</summary>
@@ -43,9 +44,11 @@ Work in Progress
 
   
 **Conditional Dominance and Rationalizability with Information-Based Continuation Reasoning** (draft coming soon!)
+
 <i>with [Joel Watson](https://econweb.ucsd.edu/~jwatson/)</i>
 
 **Strategic Obliviousness** (Current stage: Preparing a Draft)
+
 <i>with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home)</i>
  
 **How to Describe Games**
