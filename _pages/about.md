@@ -17,8 +17,7 @@ Happy browsing!
 
 Working Papers
 ======
-**[Coarse Revenue Guarantee in First Price Auction and Beyond](/files/CRG in FPA_Linchen_Zhang.pdf)** (Feb 2026)
-
+* **[Coarse Revenue Guarantee in First Price Auction and Beyond](/files/CRG in FPA_Linchen_Zhang.pdf)** (Feb 2026)
 <details>
   <summary><strong>Abstract</strong></summary>
   <br>
