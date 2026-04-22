@@ -18,12 +18,12 @@ Happy browsing!
 Working Papers
 ======
 * **[Coarse Revenue Guarantee in First Price Auction and Beyond](/files/CRG in FPA_Linchen_Zhang.pdf)** (Feb 2026)
-* <details>
+  * <details>
   <summary>Abstract</summary>
   I analyze the coarse revenue guarantee, defined as the minimum expected revenue across all Bayes Coarse Correlated Equilibria (BCCE), in the First Price Auction (FPA). This approach generalizes the standard revenue guarantee—based on Bayes Correlated Equilibrium (BCE)—established by Bergemann, Brooks and Morris (2017, ECMA) in the FPA. Because BCCE characterizes the limit points of no-regret learning dynamics, this metric provides a more robust lower bound for markets populated by algorithmic or AI agents. 
   I characterize the coarse revenue guarantee using a reduction to "identical play equilibria," in which bidders adopt identical strategies regardless of their private signals. I prove that while the coarse revenue guarantee is strictly lower than the BCE-based guarantee for any finite number of buyers, the two measures converge asymptotically as the market grows. Furthermore, I develop a coarse revenue guarantee ranking over standard auctions, generalizing the logic of Bergemann, Brooks and Morris (2019, AER). I also extend the coarse analysis to all value distributions with a fixed expected value.</details>
 
-* <details>
+  * <details>
   <summary>Presented in:</summary>
   UCSD TBE workshop, GAIMSS'24 (Flash talk and poster), ACM EC24 (poster), Stony Brook Game Theory Conference 2024, Caltech Student Theory Conference 2025, Southwest Economics Theory Conference 2026</details>
 
