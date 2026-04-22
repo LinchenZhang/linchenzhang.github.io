@@ -39,6 +39,34 @@ Working Papers
   Presented at: Triangle micro conference 2024^, UChicago^, Yale^, Cambridge^, UCL^, Stony Brook Game Theory Conference 2025
   <i>^: presented by a co-author</i></details>
 
+<div class="paper-block" markdown="1">
+
+**An Informationally-Robust Market Model of Perfect Competition** (Jul 2025)
+*with Benjamin Brooks and Songzi Du*
+
+<details markdown="1">
+<summary><strong>Click to read Abstract</strong></summary>
+<br>
+A large number of buyers with single unit demand have a common value for a good being sold. Buyers decide whether or not they wish to purchase the good; the goods are rationed among those who wish to purchase; and the market price is a function of the number of buyers who wish to purchase. We characterize pricing rules for which, as the number of buyers grows large, the expected market price converges to the expected value, regardless of the buyers’ information and equilibrium strategies: these are pricing rules that have vanishing price impact and are asymptotically inelastic. 
+<br><br>
+Interpreting the pricing rule as a market supply function, we also prove that as long as the pricing rule has vanishing price impact, then in the large market, welfare is at least at the level when the buyers have no information about the value. We extend our results to the case where there is also an idiosyncratic component to the value and where buyers have multi-unit demands.
+</details>
+
+<details markdown="1">
+<summary><strong>View Presentations</strong></summary>
+<ul>
+<li>Triangle micro conference 2024^</li>
+<li>UChicago^</li>
+<li>Yale^</li>
+<li>Cambridge^</li>
+<li>UCL^</li>
+<li>Stony Brook Game Theory Conference 2025</li>
+</ul>
+<i>^: presented by a co-author</i>
+</details>
+
+</div>
+
 Work in Progress
 ======
 
