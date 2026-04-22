@@ -23,7 +23,7 @@ Working Papers
 **[Coarse Revenue Guarantee in First Price Auction and Beyond](/files/CRG in FPA_Linchen_Zhang.pdf)** (Feb 2026)
 
 <details markdown="1">
-<summary><strong>Click to read Abstract</strong></summary>
+<summary><strong>Abstract</strong></summary>
 <br>
 I analyze the coarse revenue guarantee, defined as the minimum expected revenue across all Bayes Coarse Correlated Equilibria (BCCE), in the First Price Auction (FPA). This approach generalizes the standard revenue guarantee—based on Bayes Correlated Equilibrium (BCE)—established by Bergemann, Brooks and Morris (2017, ECMA) in the FPA. Because BCCE characterizes the limit points of no-regret learning dynamics, this metric provides a more robust lower bound for markets populated by algorithmic or AI agents. 
 <br><br>
@@ -31,7 +31,7 @@ I characterize the coarse revenue guarantee using a reduction to "identical play
 </details>
 
 <details markdown="1">
-<summary><strong>View Presentations</strong></summary>
+<summary><strong>Presentations</strong></summary>
 <ul>
 <li>UCSD TBE workshop</li>
 <li>GAIMSS'24 (Flash talk and poster)</li>
@@ -47,11 +47,11 @@ I characterize the coarse revenue guarantee using a reduction to "identical play
 
 <div class="paper-block" markdown="1">
 
-**[An Informationally-Robust Market Model of Perfect Competition](/files/bdz_market.pdf)** (Jul 2025)
+**[An Informationally-Robust Market Model of Perfect Competition](/files/bdz_market.pdf)** (Jul 2025)<br>
 *with [Benjamin Brooks](https://www.benjaminbrooks.net/) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)*
 
 <details markdown="1">
-<summary><strong>Click to read Abstract</strong></summary>
+<summary><strong>Abstract</strong></summary>
 <br>
 A large number of buyers with single unit demand have a common value for a good being sold. Buyers decide whether or not they wish to purchase the good; the goods are rationed among those who wish to purchase; and the market price is a function of the number of buyers who wish to purchase. We characterize pricing rules for which, as the number of buyers grows large, the expected market price converges to the expected value, regardless of the buyers’ information and equilibrium strategies: these are pricing rules that have vanishing price impact and are asymptotically inelastic. 
 <br><br>
@@ -59,7 +59,7 @@ Interpreting the pricing rule as a market supply function, we also prove that as
 </details>
 
 <details markdown="1">
-<summary><strong>View Presentations</strong></summary>
+<summary><strong>Presentations</strong></summary>
 <ul>
 <li>Triangle micro conference 2024^</li>
 <li>UChicago^</li>
@@ -79,7 +79,7 @@ Work in Progress
 
 <div class="paper-block" markdown="1">
 
-**Conditional Dominance and Rationalizability with Information-Based Continuation Reasoning** (draft coming soon!)
+**Conditional Dominance and Rationalizability with Information-Based Continuation Reasoning** (draft coming soon!)<br>
 *with [Joel Watson](https://econweb.ucsd.edu/~jwatson/)*
 
 </div>
@@ -87,7 +87,7 @@ Work in Progress
 
 <div class="paper-block" markdown="1">
 
-**Strategic Obliviousness** (Current stage: Preparing a Draft)
+**Strategic Obliviousness** (Current stage: Preparing a Draft)<br>
 *with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home)*
 
 </div>
