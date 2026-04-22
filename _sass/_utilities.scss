@@ -508,6 +508,34 @@ a.reversefootnote {
   margin-top: 10px;
 }
 /*
+/* Remove default underlines from all links in your main content */
+.page__content a, .paper-block a {
+  text-decoration: none;
+  color: #1a73e8; /* A modern, clean blue */
+  position: relative;
+  font-weight: 500; /* Makes the link stand out slightly */
+}
+
+/* Create the invisible underline */
+.page__content a::after, .paper-block a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px; /* Thickness of the underline */
+  bottom: -2px; /* Pushes the line slightly below the text */
+  left: 0;
+  background-color: #1a73e8; 
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out; /* The animation speed */
+}
+
+/* Trigger the animation on hover */
+.page__content a:hover::after, .paper-block a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
    Required
    ========================================================================== */
 
