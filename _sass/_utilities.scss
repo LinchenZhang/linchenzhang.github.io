@@ -492,7 +492,21 @@ a.reversefootnote {
   }
 }
 
+/* Custom Paper Blocks */
+.paper-block {
+  background-color: #fafafa; /* Very light grey background */
+  border: 1px solid #eaeaea; /* Subtle border */
+  border-radius: 8px;        /* Rounded corners */
+  padding: 20px;             /* Space inside the block */
+  margin-bottom: 30px;       /* Space between different papers */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.03); /* Extremely soft shadow */
+}
 
+/* Ensure the toggle button text looks good inside the block */
+.paper-block summary {
+  cursor: pointer;
+  margin-top: 10px;
+}
 /*
    Required
    ========================================================================== */
