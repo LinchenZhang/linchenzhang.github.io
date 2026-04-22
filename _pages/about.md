@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Economics Ph.D. student at University of California San Diego (Cohort 2021). 
+I am an Economics Ph.D. Candidate at the University of California, San Diego (Expecting to graduate in Spring 2027). 
 
 My research interests are microeconomics theory and behavioral economics, with a focus on robust and/or simple mechanism design. I am very fortunate to be advised by Professor [Songzi Du](https://econweb.ucsd.edu/~sodu/).
 
