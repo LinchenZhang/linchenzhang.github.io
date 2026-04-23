@@ -511,7 +511,7 @@ a.reversefootnote {
 /* --- BULLETPROOF LINK ANIMATION --- */
 
 /* 1. Strip the theme's default underline forcefully */
-.paper-block a {
+.paper-block a, .page__content p a {
   text-decoration: none !important;
   color: #1a73e8 !important; /* Forces the modern blue */
   position: relative !important;
@@ -520,13 +520,13 @@ a.reversefootnote {
 }
 
 /* 2. Create the hidden underline */
-.paper-block a::after {
+.paper-block a::after, .page__content p a::after {
   content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px; 
-  bottom: 0px; /* Moved up slightly so it doesn't get cut off */
+  bottom: 0px; 
   left: 0;
   background-color: #1a73e8 !important; 
   transform-origin: bottom right;
@@ -534,13 +534,13 @@ a.reversefootnote {
 }
 
 /* 3. Trigger the animation */
-.paper-block a:hover::after {
+.paper-block a:hover::after, .page__content p a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
 
 /* 4. Keep text color consistent on hover */
-.paper-block a:hover {
+.paper-block a:hover, .page__content p a:hover {
   text-decoration: none !important;
   color: #00509e !important;
 }
