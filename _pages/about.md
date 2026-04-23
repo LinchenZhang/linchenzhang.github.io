@@ -70,6 +70,7 @@ Interpreting the pricing rule as a market supply function, we also prove that as
 <li>Stony Brook Game Theory Conference 2025</li>
 <li>UC Berkeley^</li>
 <li>Stanford^</li>
+<li>NBER Decentralization Conference 2026^</li>
 <li>2026 Asian School in Theory (Scheduled)</li>
 </ul>
 <i>^: presented by a co-author</i>
