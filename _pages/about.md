@@ -39,6 +39,7 @@ I characterize the coarse revenue guarantee using a reduction to "identical play
 <li>Stony Brook Game Theory Conference 2024</li>
 <li>Caltech Student Theory Conference 2025</li>
 <li>Southwest Economics Theory Conference 2026</li>
+<li>Econometric Society Asian-China Meeting 2026 (Scheduled)</li>
 </ul>
 </details>
 
@@ -67,6 +68,9 @@ Interpreting the pricing rule as a market supply function, we also prove that as
 <li>Cambridge^</li>
 <li>UCL^</li>
 <li>Stony Brook Game Theory Conference 2025</li>
+<li>UC Berkeley^</li>
+<li>Stanford^</li>
+<li>2026 Asian School in Theory (Scheduled)</li>
 </ul>
 <i>^: presented by a co-author</i>
 </details>
