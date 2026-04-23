@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Linchen Zhang"
+title: "Linchen Zhang | Economics Ph.D. Candidate at UCSD"
 title_separator          : "-"
-name                     : &name "Linchen Zhang"
-description              : &description "personal description"
+name: "Linchen Zhang"
+description: "Personal website of Linchen Zhang, Economics Ph.D. Candidate at UC San Diego focusing on microeconomic theory and mechanism design."
 url                      : https://linchenzhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "linchenzhang.github.io"
