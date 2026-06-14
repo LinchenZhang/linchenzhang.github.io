@@ -48,15 +48,13 @@ I characterize the coarse revenue guarantee using a reduction to "identical play
 
 <div class="paper-block" markdown="1">
 
-**[An Informationally-Robust Market Model of Perfect Competition](/files/bdz_market.pdf)** (Jul 2025)<br>
+**[Market Order Mechanisms](/files/bdz_market.pdf)** (May 2026)<br>
 *with [Benjamin Brooks](https://www.benjaminbrooks.net/) and [Songzi Du](https://econweb.ucsd.edu/~sodu/)*
 
 <details markdown="1">
 <summary><strong>Abstract</strong></summary>
 <br>
-A large number of buyers with single unit demand have a common value for a good being sold. Buyers decide whether or not they wish to purchase the good; the goods are rationed among those who wish to purchase; and the market price is a function of the number of buyers who wish to purchase. We characterize pricing rules for which, as the number of buyers grows large, the expected market price converges to the expected value, regardless of the buyers’ information and equilibrium strategies: these are pricing rules that have vanishing price impact and are asymptotically inelastic. 
-<br><br>
-Interpreting the pricing rule as a market supply function, we also prove that as long as the pricing rule has vanishing price impact, then in the large market, welfare is at least at the level when the buyers have no information about the value. We extend our results to the case where there is also an idiosyncratic component to the value and where buyers have multi-unit demands.
+A homogeneous good is for sale to a large number of buyers with multi-unit demand. There are both common and idiosyncratic components to preferences. Trade occurs via a market order mechanism: Each buyer places an order for a number of units; the orders are filled in a random sequence; and buyers pay a price per unit that is a function of the aggregate order. We study the limit of such economies as the numbers of buyers and units grows large. If the pricing rules have vanishing price impact and span, then regardless of the sequence of information structures and equilibria, the limiting market outcome is guaranteed to be competitive: The goods are sold to the buyers with the highest values, at an expected price that is equal to the expected marginal value for the good. It is impossible to achieve similar guarantees for information aggregation.
 </details>
 
 <details markdown="1">
