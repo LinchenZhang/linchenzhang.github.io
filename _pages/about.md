@@ -11,7 +11,7 @@ I am an Economics Ph.D. Candidate at the University of California, San Diego (Ex
 
 My research interests are microeconomics theory and behavioral economics, with a focus on robust and/or simple mechanism design. I am very fortunate to be advised by Professor [Songzi Du](https://econweb.ucsd.edu/~sodu/).
 
-You can find my detailed CV [here](/files/Linchen_Zhang_CV_2026_01.pdf).
+You can find my detailed CV [here](/files/Linchen_Zhang_CV.pdf).
 
 Happy browsing!
 
