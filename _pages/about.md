@@ -95,7 +95,7 @@ Work in Progress
 
 <div class="paper-block" markdown="1">
 
-**Strategic Obliviousness** (Current stage: Preparing a Draft)<br>
+**Strategic Obliviousness** (Current stage: Collecting more data)<br>
 *with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home)*
 
 </div>
