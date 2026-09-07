@@ -81,7 +81,7 @@ Work in Progress
 
 <div class="paper-block" markdown="1">
 
-**Recognizing Dominance through Local Improvement (Job Market Paper)** (draft coming soon!)
+**Dominance and Local Improvement**
 
 </div>
 
