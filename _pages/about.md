@@ -20,7 +20,7 @@ Working Papers
 
 <div class="paper-block" markdown="1">
 
-**Recognizing Dominance through Local Improvement (Job Market Paper)** (draft coming soon!)
+**Recognizing Dominance through Local Improvement** (Job Market Paper，draft coming soon!)
 
 </div>
 
@@ -105,6 +105,7 @@ Work in Progress
 **Strategic Obliviousness** (Current stage: Collecting more data)<br>
 *with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home)*
 
+<details markdown="1">
 <summary><strong>Presentations</strong></summary>
 <ul>
 <li>LMU Munich^</li>
