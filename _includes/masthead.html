@@ -19,5 +19,39 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <button type="button" class="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+      <i class="fas fa-moon theme-toggle__moon" aria-hidden="true"></i>
+      <i class="fas fa-sun theme-toggle__sun" aria-hidden="true"></i>
+    </button>
   </div>
 </div>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var toggle = document.querySelector('.theme-toggle');
+
+    function applyTheme(theme) {
+      var label = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      root.setAttribute('data-theme', theme);
+      toggle.setAttribute('aria-label', label);
+      toggle.setAttribute('title', label);
+    }
+
+    applyTheme(root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+
+    if (window.matchMedia) {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (event) {
+        var stored = null;
+        try { stored = localStorage.getItem('theme'); } catch (e) {}
+        if (!stored) { applyTheme(event.matches ? 'dark' : 'light'); }
+      });
+    }
+  })();
+</script>

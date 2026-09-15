@@ -5,7 +5,25 @@
 
 /*
    Color tokens (light and dark)
+   The theme follows the system setting unless the visitor picks one with the
+   toggle, which sets data-theme="light" or "dark" on <html>.
    ========================================================================== */
+
+@mixin dark-tokens {
+  --bg: #111418;
+  --surface: #181c22;
+  --border: #2a3038;
+  --text: #d5dae0;
+  --text-muted: #9aa3ad;
+  --heading: #f1f3f5;
+  --accent: #8ab4f8;
+  --accent-hover: #aecbfa;
+  --accent-underline: rgba(138, 180, 248, 0.4);
+  --on-accent: #0b1a2e;
+  --badge-bg: #16301f;
+  --badge-text: #8fd6ab;
+  color-scheme: dark;
+}
 
 :root {
   --bg: #ffffff;
@@ -20,23 +38,17 @@
   --on-accent: #ffffff;
   --badge-bg: #e8f4ec;
   --badge-text: #1f6b43;
+  color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111418;
-    --surface: #181c22;
-    --border: #2a3038;
-    --text: #d5dae0;
-    --text-muted: #9aa3ad;
-    --heading: #f1f3f5;
-    --accent: #8ab4f8;
-    --accent-hover: #aecbfa;
-    --accent-underline: rgba(138, 180, 248, 0.4);
-    --on-accent: #0b1a2e;
-    --badge-bg: #16301f;
-    --badge-text: #8fd6ab;
+  :root:not([data-theme="light"]) {
+    @include dark-tokens;
   }
+}
+
+:root[data-theme="dark"] {
+  @include dark-tokens;
 }
 
 /*
@@ -45,7 +57,6 @@
 
 html {
   background-color: var(--bg);
-  color-scheme: light dark;
 }
 
 @include breakpoint($medium) {
@@ -95,6 +106,56 @@ a:hover {
 .masthead {
   background: var(--bg);
   border-bottom-color: var(--border);
+}
+
+/* Keep the nav and theme toggle on one row, centered inside the 50px bar */
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0 0 0.75rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--text-muted);
+    color: var(--heading);
+  }
+}
+
+.theme-toggle__sun {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-toggle__sun {
+  display: inline-block;
+}
+
+:root[data-theme="dark"] .theme-toggle__moon {
+  display: none;
 }
 
 .greedy-nav {
@@ -192,8 +253,8 @@ a:hover {
 
   &__photo {
     flex-shrink: 0;
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
     border: 1px solid var(--border);
     border-radius: 50%;
     object-fit: cover;
