@@ -20,7 +20,7 @@ Working Papers
 
 <div class="paper-block" markdown="1">
 
-**Recognizing Dominance through Local Improvement** (Job Market Paper，draft coming soon!)
+**Recognizing Dominance through Local Improvement** (Job Market Paper, draft coming soon!)
 
 </div>
 
