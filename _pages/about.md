@@ -20,6 +20,12 @@ Working Papers
 
 <div class="paper-block" markdown="1">
 
+**Recognizing Dominance through Local Improvement (Job Market Paper)** (draft coming soon!)
+
+</div>
+
+<div class="paper-block" markdown="1">
+
 **[Coarse Revenue Guarantee in First Price Auction and Beyond](/files/CRG in FPA_Linchen_Zhang.pdf)** (Sep 2026)
 
 <details markdown="1">
@@ -81,15 +87,15 @@ Work in Progress
 
 <div class="paper-block" markdown="1">
 
-**Dominance and Local Improvement**
-
-</div>
-
-<div class="paper-block" markdown="1">
-
 **Conditional Dominance and Rationalizability with Information-Based Continuation Reasoning** (draft coming soon!)<br>
 *with [Joel Watson](https://econweb.ucsd.edu/~jwatson/)*
-
+<details markdown="1">
+<summary><strong>Presentations</strong></summary>
+<ul>
+<li>UCLA Student Theory Conference 2026</li>
+</ul>
+<i>^: presented by a co-author</i>
+</details>
 </div>
 
 
@@ -98,6 +104,12 @@ Work in Progress
 **Strategic Obliviousness** (Current stage: Collecting more data)<br>
 *with [Emanuel Vespa](https://sites.google.com/site/emanuelvespa/) and [Andreas Ziegler](https://www.andreasziegler.eu/home)*
 
+<summary><strong>Presentations</strong></summary>
+<ul>
+<li>LMU Munich^</li>
+</ul>
+<i>^: presented by a co-author</i>
+</details>
 </div>
 
 
