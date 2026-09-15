@@ -1,0 +1,437 @@
+/* ==========================================================================
+   SITE CUSTOMIZATIONS
+   Loaded after the theme styles so these rules take precedence.
+   ========================================================================== */
+
+/*
+   Color tokens (light and dark)
+   ========================================================================== */
+
+:root {
+  --bg: #ffffff;
+  --surface: #f7f8fa;
+  --border: #e5e7eb;
+  --text: #2b3036;
+  --text-muted: #5b6470;
+  --heading: #111418;
+  --accent: #1f5fa8;
+  --accent-hover: #174a84;
+  --accent-underline: rgba(31, 95, 168, 0.35);
+  --on-accent: #ffffff;
+  --badge-bg: #e8f4ec;
+  --badge-text: #1f6b43;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111418;
+    --surface: #181c22;
+    --border: #2a3038;
+    --text: #d5dae0;
+    --text-muted: #9aa3ad;
+    --heading: #f1f3f5;
+    --accent: #8ab4f8;
+    --accent-hover: #aecbfa;
+    --accent-underline: rgba(138, 180, 248, 0.4);
+    --on-accent: #0b1a2e;
+    --badge-bg: #16301f;
+    --badge-text: #8fd6ab;
+  }
+}
+
+/*
+   Base
+   ========================================================================== */
+
+html {
+  background-color: var(--bg);
+  color-scheme: light dark;
+}
+
+@include breakpoint($medium) {
+  html {
+    font-size: 17px;
+  }
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading);
+}
+
+a,
+a:visited {
+  color: var(--accent);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+.page__content a {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-underline);
+  text-underline-offset: 0.2em;
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+[hidden] {
+  display: none !important;
+}
+
+/*
+   Masthead and navigation
+   ========================================================================== */
+
+.masthead {
+  background: var(--bg);
+  border-bottom-color: var(--border);
+}
+
+.greedy-nav {
+  background: var(--bg);
+
+  a,
+  a:visited {
+    color: var(--text-muted);
+  }
+
+  a:hover {
+    color: var(--heading);
+  }
+
+  button {
+    background-color: var(--text-muted);
+  }
+
+  .visible-links a:before {
+    background: var(--accent);
+    height: 2px;
+  }
+
+  .hidden-links {
+    background: var(--surface);
+    border-color: var(--border);
+
+    a:hover {
+      background: var(--bg);
+    }
+
+    li {
+      border-bottom-color: var(--border);
+    }
+
+    &:before {
+      border-color: var(--border) transparent;
+    }
+
+    &:after {
+      border-color: var(--surface) transparent;
+    }
+  }
+}
+
+.masthead__menu-item--lg a,
+.masthead__menu-item--lg a:visited {
+  color: var(--heading);
+  font-family: $header-font-family;
+  font-weight: 600;
+}
+
+/*
+   Footer
+   ========================================================================== */
+
+.page__footer {
+  background-color: var(--surface);
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+/*
+   Home page layout (no sidebar, single centered column)
+   ========================================================================== */
+
+.home .page {
+  float: none;
+  width: 100%;
+  max-width: 46rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.home section[id],
+.home #research {
+  scroll-margin-top: 70px;
+}
+
+.home__intro p {
+  margin-bottom: 1em;
+}
+
+/*
+   Hero
+   ========================================================================== */
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1.5rem 0 2rem;
+
+  &__photo {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 25%;
+  }
+
+  &__name {
+    margin: 0;
+    font-size: 2.2rem;
+    line-height: 1.15;
+  }
+
+  &__native {
+    margin-left: 0.2em;
+    color: var(--text-muted);
+    font-size: 0.6em;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  &__role {
+    margin: 0.35rem 0 0;
+    color: var(--text-muted);
+  }
+
+  &__badge {
+    display: inline-block;
+    margin: 0.75rem 0 0;
+    padding: 0.15rem 0.75rem;
+    border-radius: 999px;
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      margin: 0;
+    }
+  }
+}
+
+@include breakpoint(max-width $small) {
+  .hero {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .hero__links {
+    justify-content: center;
+  }
+}
+
+/*
+   Pill buttons
+   ========================================================================== */
+
+.btn-pill,
+.home .btn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  margin: 0;
+  padding: 0.3rem 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text);
+  font-family: $global-font-family;
+  font-size: 0.8rem;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: border-color 0.15s ease, color 0.15s ease, background-color 0.15s ease;
+
+  &:visited {
+    color: var(--text);
+  }
+
+  &:hover,
+  &:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  &--primary,
+  &--primary:visited {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: var(--on-accent);
+  }
+
+  &--primary:hover,
+  &--primary:focus-visible {
+    border-color: var(--accent-hover);
+    background: var(--accent-hover);
+    color: var(--on-accent);
+  }
+
+  &--toggle:after {
+    content: "+";
+    margin-left: 0.15em;
+    color: var(--text-muted);
+  }
+
+  &--toggle[aria-expanded="true"] {
+    border-color: var(--accent);
+    color: var(--accent);
+
+    &:after {
+      content: "\2212";
+      color: inherit;
+    }
+  }
+}
+
+/*
+   Paper list
+   ========================================================================== */
+
+.section-title {
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 1.35rem;
+}
+
+.paper {
+  margin-bottom: 1rem;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+
+  &--featured {
+    border-left: 3px solid var(--accent);
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.35;
+
+    a,
+    a:visited {
+      color: var(--heading);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+  }
+
+  &__authors,
+  &__meta {
+    margin: 0.3rem 0 0;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+
+  &__authors a,
+  &__authors a:visited {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--border);
+    text-underline-offset: 0.2em;
+
+    &:hover {
+      color: var(--accent);
+      text-decoration-color: currentColor;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+  }
+
+  &__panel {
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.9rem;
+
+    p {
+      margin: 0 0 0.6em;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/*
+   References
+   ========================================================================== */
+
+.references__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1rem 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reference {
+  margin: 0;
+
+  &__name {
+    font-weight: 600;
+  }
+
+  &__role {
+    color: var(--text-muted);
+    font-size: 0.9em;
+  }
+
+  &__detail {
+    display: block;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+}

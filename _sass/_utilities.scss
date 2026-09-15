@@ -492,59 +492,6 @@ a.reversefootnote {
   }
 }
 
-/* Custom Paper Blocks */
-.paper-block {
-  background-color: #fafafa; /* Very light grey background */
-  border: 1px solid #eaeaea; /* Subtle border */
-  border-radius: 8px;        /* Rounded corners */
-  padding: 20px;             /* Space inside the block */
-  margin-bottom: 30px;       /* Space between different papers */
-  box-shadow: 0 2px 5px rgba(0,0,0,0.03); /* Extremely soft shadow */
-}
-
-/* Ensure the toggle button text looks good inside the block */
-.paper-block summary {
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-/* --- BULLETPROOF LINK ANIMATION --- */
-
-/* 1. Strip the theme's default underline forcefully */
-.paper-block a, .page__content p a {
-  text-decoration: none !important;
-  color: #1a73e8 !important; /* Forces the modern blue */
-  position: relative !important;
-  font-weight: 500;
-  display: inline-block; /* Prevents the theme from breaking the animation box */
-}
-
-/* 2. Create the hidden underline */
-.paper-block a::after, .page__content p a::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px; 
-  bottom: 0px; 
-  left: 0;
-  background-color: #1a73e8 !important; 
-  transform-origin: bottom right;
-  transition: transform 0.3s ease-out !important;
-}
-
-/* 3. Trigger the animation */
-.paper-block a:hover::after, .page__content p a:hover::after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-/* 4. Keep text color consistent on hover */
-.paper-block a:hover, .page__content p a:hover {
-  text-decoration: none !important;
-  color: #00509e !important;
-}
-
 /*
    Required
    ========================================================================== */

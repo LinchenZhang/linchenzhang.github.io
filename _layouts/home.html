@@ -1,0 +1,99 @@
+---
+layout: default
+---
+
+{% include base_path %}
+{% assign author = site.author %}
+
+<div id="main" role="main" class="home">
+  <article class="page" itemscope itemtype="http://schema.org/Person">
+
+    <header class="hero">
+      <img class="hero__photo" src="{{ base_path }}/images/{{ author.avatar }}" alt="Photo of {{ author.name }}" itemprop="image">
+      <div class="hero__text">
+        <h1 class="hero__name"><span itemprop="name">{{ author.name }}</span>{% if author.name_native %} <span class="hero__native" lang="zh">{{ author.name_native }}</span>{% endif %}</h1>
+        <p class="hero__role" itemprop="jobTitle">{{ author.bio }}</p>
+        {% if page.job_market %}<p class="hero__badge">{{ page.job_market }}</p>{% endif %}
+        <ul class="hero__links">
+          {% if author.cv %}<li><a class="btn-pill btn-pill--primary" href="{{ base_path }}{{ author.cv }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> CV</a></li>{% endif %}
+          {% if author.email %}<li><a class="btn-pill" href="mailto:{{ author.email }}" itemprop="email"><i class="fas fa-envelope" aria-hidden="true"></i> {{ author.email }}</a></li>{% endif %}
+          {% if author.googlescholar %}<li><a class="btn-pill" href="{{ author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a></li>{% endif %}
+          {% if author.ssrn %}<li><a class="btn-pill" href="{{ author.ssrn }}"><i class="ai ai-ssrn" aria-hidden="true"></i> SSRN</a></li>{% endif %}
+          {% if author.orcid %}<li><a class="btn-pill" href="{{ author.orcid }}"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>{% endif %}
+          {% if author.linkedin %}<li><a class="btn-pill" href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>{% endif %}
+          {% if author.github %}<li><a class="btn-pill" href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>{% endif %}
+        </ul>
+      </div>
+    </header>
+
+    <section class="page__content home__intro" itemprop="description">
+      {{ content }}
+    </section>
+
+    <div id="research">
+    {% for section in site.data.papers.sections %}
+      <section id="{{ section.id }}" class="papers">
+        <h2 class="section-title">{{ section.title }}</h2>
+        {% for p in section.papers %}
+          {% assign pid = section.id | append: "-" | append: forloop.index %}
+          <div class="paper{% if section.featured %} paper--featured{% endif %}">
+            <h3 class="paper__title">
+              {% if p.url %}<a href="{% unless p.url contains '://' %}{{ base_path }}{% endunless %}{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}
+            </h3>
+            {% if p.coauthors %}
+              <p class="paper__authors">with {% for c in p.coauthors %}{% if forloop.last and forloop.length > 1 %} and {% elsif forloop.index > 1 %}, {% endif %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% endfor %}</p>
+            {% endif %}
+            {% if p.version or p.status %}
+              <p class="paper__meta">{% if p.version %}This version: {{ p.version }}{% endif %}{% if p.version and p.status %} · {% endif %}{% if p.status %}{{ p.status }}{% endif %}</p>
+            {% endif %}
+            {% if p.url or p.abstract or p.presentations or p.coauthor_presentations %}
+              <div class="paper__actions">
+                {% if p.url %}<a class="btn-pill" href="{% unless p.url contains '://' %}{{ base_path }}{% endunless %}{{ p.url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF</a>{% endif %}
+                {% if p.abstract %}<button type="button" class="btn-pill btn-pill--toggle" aria-expanded="false" aria-controls="{{ pid }}-abstract">Abstract</button>{% endif %}
+                {% if p.presentations or p.coauthor_presentations %}<button type="button" class="btn-pill btn-pill--toggle" aria-expanded="false" aria-controls="{{ pid }}-talks">Presentations</button>{% endif %}
+              </div>
+              {% if p.abstract %}
+                <div class="paper__panel" id="{{ pid }}-abstract" hidden>{{ p.abstract | markdownify }}</div>
+              {% endif %}
+              {% if p.presentations or p.coauthor_presentations %}
+                <div class="paper__panel" id="{{ pid }}-talks" hidden>
+                  {% if p.presentations %}<p>{{ p.presentations | join: "; " }}</p>{% endif %}
+                  {% if p.coauthor_presentations %}<p><em>By co-authors:</em> {{ p.coauthor_presentations | join: "; " }}</p>{% endif %}
+                </div>
+              {% endif %}
+            {% endif %}
+          </div>
+        {% endfor %}
+      </section>
+    {% endfor %}
+    </div>
+
+    {% if site.data.references and site.data.references.size > 0 %}
+      <section id="references" class="references">
+        <h2 class="section-title">References</h2>
+        <ul class="references__list">
+          {% for r in site.data.references %}
+            <li class="reference">
+              <span class="reference__name">{% if r.url %}<a href="{{ r.url }}">{{ r.name }}</a>{% else %}{{ r.name }}{% endif %}</span>{% if r.role %} <span class="reference__role">({{ r.role }})</span>{% endif %}
+              {% if r.title %}<span class="reference__detail">{{ r.title }}</span>{% endif %}
+              {% if r.affiliation %}<span class="reference__detail">{{ r.affiliation }}</span>{% endif %}
+              {% if r.email %}<a class="reference__detail" href="mailto:{{ r.email }}">{{ r.email }}</a>{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+  </article>
+</div>
+
+<script>
+  document.querySelectorAll('.paper__actions button[aria-controls]').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var panel = document.getElementById(button.getAttribute('aria-controls'));
+      var isOpen = button.getAttribute('aria-expanded') === 'true';
+      button.setAttribute('aria-expanded', String(!isOpen));
+      panel.hidden = isOpen;
+    });
+  });
+</script>

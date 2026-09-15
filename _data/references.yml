@@ -1,0 +1,27 @@
+# Letter writers shown in the "References" section of the home page.
+# Remove this file's entries (or the whole file) to hide the section.
+
+- name: Songzi Du
+  role: Chair
+  title: Associate Professor
+  affiliation: Department of Economics, UC San Diego
+  url: https://econweb.ucsd.edu/~sodu/
+  email: sodu@ucsd.edu
+
+- name: Aram Grigoryan
+  title: Assistant Teaching Professor
+  affiliation: Department of Economics, UC San Diego
+  url: https://sites.google.com/iset.ge/aramgrigoryan
+  email: a2grigoryan@ucsd.edu
+
+- name: Joel Watson
+  title: Professor
+  affiliation: Department of Economics, UC San Diego
+  url: https://econweb.ucsd.edu/~jwatson/
+  email: jwatson@ucsd.edu
+
+- name: Emanuel Vespa
+  title: Professor
+  affiliation: Department of Economics, UC San Diego
+  url: https://sites.google.com/site/emanuelvespa/
+  email: evespa@ucsd.edu

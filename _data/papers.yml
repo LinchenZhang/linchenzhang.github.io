@@ -1,0 +1,97 @@
+# Papers shown on the home page, grouped into sections (rendered by _layouts/home.html).
+#
+# Fields for each paper (all optional except title):
+#   title                  : paper title
+#   url                    : link to the PDF (e.g. /files/paper.pdf) or an external page
+#   coauthors              : list of {name, url}
+#   version                : shown as "This version: ..."
+#   status                 : short note, e.g. "Draft coming soon"
+#   abstract               : text; inline math with $...$ is rendered by MathJax
+#   presentations          : talks you gave
+#   coauthor_presentations : talks given by a co-author
+
+sections:
+  - id: job-market-paper
+    title: Job Market Paper
+    featured: true
+    papers:
+      - title: Recognizing Dominance through Local Improvement
+        status: Draft coming soon
+
+  - id: working-papers
+    title: Working Papers
+    papers:
+      - title: Coarse Revenue Guarantee in First Price Auction and Beyond
+        url: /files/CRG%20in%20FPA_Linchen_Zhang.pdf
+        version: September 2026
+        abstract: >-
+          I analyze the coarse revenue guarantee (CRG) of the first-price auction with common values:
+          CRG is the minimum expected revenue over Bayes Coarse Correlated Equilibria (BCCE), and BCCE
+          is the equilibrium notion that no-regret learning leads to. The worst case is identical play,
+          in which all bidders pool on a common bid, and this reduction yields a closed-form
+          characterization. The guarantee is positive, increasing in the number of bidders, and strictly
+          below the interim guarantee of Bergemann, Brooks, and Morris (2017 ECMA), converging to it at
+          rate $\log N/N$. The analysis framework is extended to reserve prices, symmetric priors, other
+          standard auctions beyond the first-price auction, and unknown value distributions.
+        presentations:
+          - UCSD TBE Workshop
+          - GAIMSS 2024 (flash talk and poster)
+          - ACM EC 2024 (poster)
+          - Stony Brook Game Theory Conference 2024
+          - Caltech Student Theory Conference 2025
+          - Southwest Economics Theory Conference 2026
+          - Econometric Society Asian-China Meeting 2026
+
+      - title: Market Order Mechanisms
+        url: /files/bdz_market.pdf
+        coauthors:
+          - name: Benjamin Brooks
+            url: https://www.benjaminbrooks.net/
+          - name: Songzi Du
+            url: https://econweb.ucsd.edu/~sodu/
+        version: May 2026
+        abstract: >-
+          A homogeneous good is for sale to a large number of buyers with multi-unit demand. There are
+          both common and idiosyncratic components to preferences. Trade occurs via a market order
+          mechanism: Each buyer places an order for a number of units; the orders are filled in a random
+          sequence; and buyers pay a price per unit that is a function of the aggregate order. We study
+          the limit of such economies as the numbers of buyers and units grows large. If the pricing rules
+          have vanishing price impact and span, then regardless of the sequence of information structures
+          and equilibria, the limiting market outcome is guaranteed to be competitive: The goods are sold
+          to the buyers with the highest values, at an expected price that is equal to the expected
+          marginal value for the good. It is impossible to achieve similar guarantees for information
+          aggregation.
+        presentations:
+          - Stony Brook Game Theory Conference 2025
+          - 2026 Asian School in Theory
+        coauthor_presentations:
+          - Triangle Micro Conference 2024
+          - UChicago
+          - Yale
+          - Cambridge
+          - UCL
+          - UC Berkeley
+          - Stanford
+          - NBER Decentralization Conference 2026
+          - Penn State
+
+  - id: work-in-progress
+    title: Work in Progress
+    papers:
+      - title: Conditional Dominance and Rationalizability with Information-Based Continuation Reasoning
+        coauthors:
+          - name: Joel Watson
+            url: https://econweb.ucsd.edu/~jwatson/
+        status: Draft coming soon
+        presentations:
+          - UCLA Student Theory Conference 2026
+
+      - title: Strategic Obliviousness
+        coauthors:
+          - name: Emanuel Vespa
+            url: https://sites.google.com/site/emanuelvespa/
+          - name: Andreas Ziegler
+            url: https://www.andreasziegler.eu/home
+        status: Experiment in progress
+        coauthor_presentations:
+          - LMU Munich
