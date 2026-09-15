@@ -24,6 +24,7 @@ Working Papers
 
 </div>
 
+
 <div class="paper-block" markdown="1">
 
 **[Coarse Revenue Guarantee in First Price Auction and Beyond](/files/CRG in FPA_Linchen_Zhang.pdf)** (Sep 2026)
