@@ -11,4 +11,6 @@ I am a Ph.D. candidate in Economics at the University of California, San Diego, 
 
 My research interests are microeconomic theory and behavioral economics, with a focus on robust and simple mechanism design.
 
+Before UC San Diego, I received a B.A. in Computer Science, Economics (magna cum laude), and Mathematics from Cornell University in 2021.
+
 <!-- Papers and references are edited in _data/papers.yml and _data/references.yml -->
