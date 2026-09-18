@@ -22,7 +22,7 @@ sections:
     title: Working Papers
     papers:
       - title: Coarse Revenue Guarantee in First Price Auction and Beyond
-        url: /files/CRG_in_FPA_Linchen_Zhang.pdf
+        url: /files/CRG%20in%20FPA_Linchen_Zhang.pdf
         version: September 2026
         abstract: >-
           I analyze the coarse revenue guarantee (CRG) of the single-unit first-price auction with common
