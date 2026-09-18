@@ -22,17 +22,18 @@ sections:
     title: Working Papers
     papers:
       - title: Coarse Revenue Guarantee in First Price Auction and Beyond
-        url: /files/CRG%20in%20FPA_Linchen_Zhang.pdf
+        url: /files/CRG_in_FPA_Linchen_Zhang.pdf
         version: September 2026
         abstract: >-
-          I analyze the coarse revenue guarantee (CRG) of the first-price auction with common values:
-          CRG is the minimum expected revenue over Bayes Coarse Correlated Equilibria (BCCE), and BCCE
-          is the equilibrium notion that no-regret learning leads to. The worst case is identical play,
-          in which all bidders pool on a common bid, and this reduction yields a closed-form
-          characterization. The guarantee is positive, increasing in the number of bidders, and strictly
-          below the interim guarantee of Bergemann, Brooks, and Morris (2017 ECMA), converging to it at
-          rate $\log N/N$. The analysis framework is extended to reserve prices, symmetric priors, other
-          standard auctions beyond the first-price auction, and unknown value distributions.
+          I analyze the coarse revenue guarantee (CRG) of the single-unit first-price auction with common
+          values: CRG is the minimum expected revenue over Bayes Coarse Correlated Equilibria (BCCE), and
+          BCCE is the equilibrium notion that no-regret learning leads to. The worst case is identical
+          play, in which all bidders pool on a common bid, and this reduction yields a closed-form
+          characterization. The coarse guarantee is always positive, increases with the number of bidders,
+          remains strictly below the interim guarantee of Bergemann, Brooks and Morris (2017), but
+          converges to the interim one at rate $\log N/N$. The analysis is then extended to reserve
+          prices, symmetric and asymmetric priors, other standard auctions beyond the first-price auction,
+          and unknown value distributions.
         presentations:
           - UCSD TBE Workshop
           - GAIMSS 2024 (flash talk and poster)
