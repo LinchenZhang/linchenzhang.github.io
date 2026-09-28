@@ -18,18 +18,15 @@ sections:
       - title: Recognizing Dominance through Local Improvement
         status: Draft coming soon
         abstract: >-
-          Strategy-proofness is the traditional standard of simplicity in mechanism design, yet
-          participants often fail to play the dominant strategy. Existing simplicity concepts attribute
-          this to contingent reasoning but ignore the structure of the strategy set. I formalize the
-          structure as a neighbor relation. A mechanism is locally improvement solvable if, starting from
-          any strategy, repeatedly replacing it with an improving neighbor strategy leads to a dominant
-          strategy. Strategy-proofness is the coarsest member of the resulting family, and the classical
-          mechanisms are solvable under finer relations, which give a short path to the dominant strategy.
-          The criterion is a second angle on simplicity, distinct from obvious strategy-proofness. In
-          extensive-form mechanisms, it is strict action-proofness. Neither action-proofness nor obvious
-          strategy-proofness implies the other, and strong obvious strategy-proofness requires both.
-          Between mechanisms implementing the same outcomes, the criterion predicts more dominant-strategy
-          play in the one that makes the local comparison salient.
+          Strategy-proofness is the traditional standard of simplicity in mechanism design, yet participants often
+          fail to play the dominant strategy. Existing simplicity concepts attribute this to contingent reasoning and
+          ignore the structure of the strategy set, which I formalize as a neighbor relation. A mechanism is local
+          improvement solvable if, from any starting strategy, repeatedly moving to an improving neighbor leads to a
+          dominant strategy. Strategy-proofness is the coarsest case, and classical mechanisms satisfy the criterion
+          under finer relations. The criterion offers a second angle on simplicity, distinct from obvious
+          strategy-proofness. In extensive-form mechanisms and games without duplicate dominant strategies, it is
+          strict action-proofness. Among mechanisms implementing the same outcomes, it predicts more dominant-strategy
+          play where the local comparison is salient.
 
   - id: working-papers
     title: Working Papers
