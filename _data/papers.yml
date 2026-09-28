@@ -16,7 +16,7 @@ sections:
     featured: true
     papers:
       - title: Recognizing Dominance through Local Improvement
-        status: Draft coming soon
+        status: Draft available upon request
         abstract: >-
           Strategy-proofness is the traditional standard of simplicity in mechanism design, yet participants often
           fail to play the dominant strategy. Existing simplicity concepts attribute this to contingent reasoning and
