@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Ph.D. candidate in Economics at the University of California, San Diego, expecting to graduate in Spring 2027. I am very fortunate to be advised by [Songzi Du](https://econweb.ucsd.edu/~sodu/).
 
-My research interests are microeconomic theory and behavioral economics, with a focus on robust and simple mechanism design.
+My research interests are microeconomic theory and behavioral economics, with a focus on simplicity and robustness.
 
 Before UC San Diego, I received a B.A. in Computer Science, Economics (magna cum laude), and Mathematics from Cornell University in 2021.
 
