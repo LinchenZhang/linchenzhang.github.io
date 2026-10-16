@@ -40,7 +40,7 @@ sections:
           equilibria (BCCE), the equilibrium notion to which no-regret learning leads. The worst case is identical
           play, in which all bidders submit the same bid, and this reduction yields a closed-form characterization.
           The coarse guarantee is positive and increases with the number of bidders $N$. It lies strictly below the
-          interim guarantee of Bergemann, Brooks and Morris (2017) at every finite $N$, and the gap between the two
+          revenue guarantee of Bergemann, Brooks and Morris (2017) at every finite $N$, and the gap between the two
           closes at rate $\log N/N$. I extend the analysis to reserve prices, symmetric and asymmetric priors, other
           standard auctions, and an unknown value distribution.
         presentations:
