@@ -108,6 +108,12 @@ sections:
           - name: Andreas Ziegler
             url: https://www.andreasziegler.eu/home
         status: Third wave of experiments completed; Analyzing data and preparing for a draft
+        abstract: >-
+          We study strategic obliviousness, the failure to account for publicly observable, payoff-relevant
+          information about one's opponents. In a laboratory experiment, a substantial share of participants behave as
+          if others' strategies do not depend on this information, revealing an incorrect mental model of others'
+          strategic reasoning. While participants condition on this information when choosing themselves, they do not
+          anticipate that their opponents condition on it too.
         coauthor_presentations:
           - LMU Munich
           - UCL
