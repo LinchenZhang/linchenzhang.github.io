@@ -32,6 +32,9 @@ sections:
           one-situation neighbors is strict action-proofness, which is distinct from obvious strategy-proofness. Among
           local improvement solvable mechanisms that implement the same outcomes, the criterion predicts more
           dominant-strategy play where the local comparison is salient.
+        presentations:
+          - UCSD TBE Seminar
+          - UCSD TBE Workshop
 
   - id: working-papers
     title: Working Papers
@@ -94,6 +97,7 @@ sections:
           - NUS
           - HKUST
           - CUHK Shenzhen
+          - SMU
 
   - id: work-in-progress
     title: Work in Progress
