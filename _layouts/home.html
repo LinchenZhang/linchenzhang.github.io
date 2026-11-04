@@ -46,19 +46,22 @@ layout: default
             {% if p.version or p.status %}
               <p class="paper__meta">{% if p.version %}This version: {{ p.version }}{% endif %}{% if p.version and p.status %} · {% endif %}{% if p.status %}{{ p.status }}{% endif %}</p>
             {% endif %}
-            {% if p.url or p.abstract or p.presentations or p.coauthor_presentations %}
+            {% assign has_talks = false %}{% if p.seminars or p.conferences or p.coauthor_seminars or p.coauthor_conferences %}{% assign has_talks = true %}{% endif %}
+            {% if p.url or p.abstract or has_talks %}
               <div class="paper__actions">
                 {% if p.url %}<a class="btn-pill" href="{% unless p.url contains '://' %}{{ base_path }}{% endunless %}{{ p.url }}"><i class="fas fa-file-pdf" aria-hidden="true"></i> PDF</a>{% endif %}
                 {% if p.abstract %}<button type="button" class="btn-pill btn-pill--toggle" aria-expanded="false" aria-controls="{{ pid }}-abstract">Abstract</button>{% endif %}
-                {% if p.presentations or p.coauthor_presentations %}<button type="button" class="btn-pill btn-pill--toggle" aria-expanded="false" aria-controls="{{ pid }}-talks">Presentations</button>{% endif %}
+                {% if has_talks %}<button type="button" class="btn-pill btn-pill--toggle" aria-expanded="false" aria-controls="{{ pid }}-talks">Presentations</button>{% endif %}
               </div>
               {% if p.abstract %}
                 <div class="paper__panel" id="{{ pid }}-abstract" hidden>{{ p.abstract | markdownify }}</div>
               {% endif %}
-              {% if p.presentations or p.coauthor_presentations %}
+              {% if has_talks %}
                 <div class="paper__panel" id="{{ pid }}-talks" hidden>
-                  {% if p.presentations %}<p>{{ p.presentations | join: "; " }}</p>{% endif %}
-                  {% if p.coauthor_presentations %}<p><em>By co-authors:</em> {{ p.coauthor_presentations | join: "; " }}</p>{% endif %}
+                  {% if p.seminars %}<p><strong>Seminars:</strong> {{ p.seminars | join: "; " }}</p>{% endif %}
+                  {% if p.conferences %}<p><strong>Conferences:</strong> {{ p.conferences | join: "; " }}</p>{% endif %}
+                  {% if p.coauthor_seminars %}<p><strong>Seminars</strong> <em>(by co-authors):</em> {{ p.coauthor_seminars | join: "; " }}</p>{% endif %}
+                  {% if p.coauthor_conferences %}<p><strong>Conferences</strong> <em>(by co-authors):</em> {{ p.coauthor_conferences | join: "; " }}</p>{% endif %}
                 </div>
               {% endif %}
             {% endif %}

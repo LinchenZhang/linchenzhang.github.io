@@ -7,8 +7,10 @@
 #   version                : shown as "This version: ..."
 #   status                 : short note, e.g. "Draft coming soon"
 #   abstract               : text; inline math with $...$ is rendered by MathJax
-#   presentations          : talks you gave
-#   coauthor_presentations : talks given by a co-author
+#   seminars               : seminars/workshops you presented at (full institution names)
+#   conferences            : conferences you presented at
+#   coauthor_seminars      : seminars presented by a co-author
+#   coauthor_conferences   : conferences presented by a co-author
 
 sections:
   - id: job-market-paper
@@ -32,9 +34,9 @@ sections:
           one-situation neighbors is strict action-proofness, which is distinct from obvious strategy-proofness. Among
           local improvement solvable mechanisms that implement the same outcomes, the criterion predicts more
           dominant-strategy play where the local comparison is salient.
-        presentations:
-          - UCSD TBE Seminar
-          - UCSD TBE Workshop
+        seminars:
+          - University of California, San Diego TBE Seminar
+          - University of California, San Diego TBE Workshop
 
   - id: working-papers
     title: Working Papers
@@ -51,8 +53,9 @@ sections:
           strictly below the revenue guarantee of Bergemann, Brooks and Morris (2017) at every finite $N$, and the gap
           between the two closes at rate $\log N/N$. I extend the analysis to reserve prices, symmetric and asymmetric
           priors, other standard auctions, and an unknown value distribution.
-        presentations:
-          - UCSD TBE Workshop
+        seminars:
+          - University of California, San Diego TBE Workshop
+        conferences:
           - GAIMSS 2024 (flash talk and poster)
           - ACM EC 2024 (poster)
           - Stony Brook Game Theory Conference 2024
@@ -79,25 +82,26 @@ sections:
           to the buyers with the highest values, at an expected price that is equal to the expected
           marginal value for the good. It is impossible to achieve similar guarantees for information
           aggregation.
-        presentations:
+        conferences:
           - Stony Brook Game Theory Conference 2025
           - 2026 Asian School in Theory
-        coauthor_presentations:
+        coauthor_seminars:
+          - University of Chicago
+          - Yale University
+          - University of Cambridge
+          - University College London
+          - University of California, Berkeley
+          - Stanford University
+          - Pennsylvania State University
+          - University of Pennsylvania
+          - University of Hong Kong
+          - National University of Singapore
+          - Hong Kong University of Science and Technology
+          - Chinese University of Hong Kong, Shenzhen
+          - Singapore Management University
+        coauthor_conferences:
           - Triangle Micro Conference 2024
-          - UChicago
-          - Yale
-          - Cambridge
-          - UCL
-          - UC Berkeley
-          - Stanford
           - NBER Decentralization Conference 2026
-          - Penn State
-          - UPenn
-          - HKU
-          - NUS
-          - HKUST
-          - CUHK Shenzhen
-          - SMU
 
   - id: work-in-progress
     title: Work in Progress
@@ -107,7 +111,7 @@ sections:
           - name: Joel Watson
             url: https://econweb.ucsd.edu/~jwatson/
         status: Draft coming soon
-        presentations:
+        conferences:
           - UCLA Student Theory Conference 2026
 
       - title: Strategic Obliviousness
@@ -123,6 +127,7 @@ sections:
           if others' strategies do not depend on this information, revealing an incorrect mental model of others'
           strategic reasoning. While participants condition on this information when choosing themselves, they do not
           anticipate that their opponents condition on it too.
-        coauthor_presentations:
-          - LMU Munich
-          - UCL
+        coauthor_seminars:
+          - Ludwig Maximilian University of Munich
+          - University College London
+          - University of Zurich
