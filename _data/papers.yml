@@ -35,8 +35,8 @@ sections:
           local improvement solvable mechanisms that implement the same outcomes, the criterion predicts more
           dominant-strategy play where the local comparison is salient.
         seminars:
-          - University of California, San Diego TBE Seminar
-          - University of California, San Diego TBE Workshop
+          - UC San Diego TBE Seminar
+          - UC San Diego TBE Workshop
 
   - id: working-papers
     title: Working Papers
@@ -54,7 +54,7 @@ sections:
           between the two closes at rate $\log N/N$. I extend the analysis to reserve prices, symmetric and asymmetric
           priors, other standard auctions, and an unknown value distribution.
         seminars:
-          - University of California, San Diego TBE Workshop
+          - UC San Diego TBE Workshop
         conferences:
           - GAIMSS 2024 (flash talk and poster)
           - ACM EC 2024 (poster)
@@ -102,6 +102,7 @@ sections:
         coauthor_conferences:
           - Triangle Micro Conference 2024
           - NBER Decentralization Conference 2026
+          - Tokyo Conference on Market Design 2026
 
   - id: work-in-progress
     title: Work in Progress
@@ -128,6 +129,6 @@ sections:
           strategic reasoning. While participants condition on this information when choosing themselves, they do not
           anticipate that their opponents condition on it too.
         coauthor_seminars:
-          - Ludwig Maximilian University of Munich
+          - LMU Munich
           - University College London
           - University of Zurich
