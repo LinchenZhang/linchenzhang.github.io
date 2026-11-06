@@ -19,21 +19,22 @@ sections:
     papers:
       - title: Recognizing Dominance through Local Improvement
         url: /files/Local_Improvement_Linchen_Zhang.pdf
-        version: October 2026
+        version: November 2026
         abstract: >-
-          Strategy-proofness is the traditional standard for predictable behavior, yet participants often fail to play
-          dominant strategies. Most existing simplicity concepts attribute these failures to the cost of contingent
-          reasoning, which they lower by comparing the worst case of the dominant strategy with the best case of an
-          alternative. I argue that there is another approach, one that makes more use of the structure of the
-          strategy set, which I formalize as a neighbor relation. Comparing neighboring strategies can reduce the need
-          for contingent reasoning, and, even with a single contingency, it can simplify the search through the
-          strategy set. I introduce a new simplicity criterion: a mechanism is local improvement solvable under a
-          neighbor relation if repeatedly moving to an improving neighbor always reaches a dominant strategy.
-          Strategy-proofness is the criterion under the coarsest relation, and many classical mechanisms satisfy it
-          under finer ones. In extensive-form mechanisms without duplicate dominant strategies, the criterion under
-          one-situation neighbors is strict action-proofness, which is distinct from obvious strategy-proofness. Among
-          local improvement solvable mechanisms that implement the same outcomes, the criterion predicts more
-          dominant-strategy play where the local comparison is salient.
+          Participants in strategy-proof mechanisms often fail to play their dominant strategies. Most existing
+          simplicity concepts attribute these failures to the cost of contingent reasoning and lower the cost by
+          comparing the worst case of the dominant strategy with the best case of an alternative. I argue that a
+          participant can instead compare a strategy with its neighbors, such as the bids one step above and below,
+          and move to a better neighbor until none remains. I formalize this idea with a neighbor relation on each
+          strategy set and call a mechanism local improvement solvable if every such sequence of moves ends at a
+          dominant strategy. Strategy-proofness is the criterion under the complete neighbor relation. Under their
+          natural neighbor relations, the criterion holds in the sealed-bid second-price auction, the multi-unit
+          Vickrey auction, and, in rich environments, serial dictatorship, top trading cycles, and deferred
+          acceptance. In extensive-form mechanisms without duplicate dominant strategies, the criterion under
+          one-situation neighbors is strict action-proofness, which yields a one-shot deviation principle for
+          dominance. This criterion and obvious strategy-proofness classify the pick-a-number game, chess, and Sudoku
+          in opposite ways. Among local improvement solvable mechanisms that implement the same outcomes, the model
+          predicts more dominant-strategy play when the local comparison is salient.
         seminars:
           - UC San Diego TBE Seminar
           - UC San Diego TBE Workshop
