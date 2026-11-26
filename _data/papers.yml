@@ -38,6 +38,8 @@ sections:
         seminars:
           - UC San Diego TBE Seminar
           - UC San Diego TBE Workshop
+        conferences:
+          - CICE 2026 (scheduled)
 
   - id: working-papers
     title: Working Papers
@@ -132,3 +134,4 @@ sections:
           - LMU Munich
           - University College London
           - University of Zurich
+          - New York University
